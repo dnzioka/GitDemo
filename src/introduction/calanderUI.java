@@ -27,6 +27,7 @@ public class calanderUI {
 		if (driver.findElement(By.id("Div1")).getAttribute("style").contains("1")) {
 			System.out.println("its enabled");
 			Assert.assertTrue(true);
+		
 		}
 		else {
 			Assert.assertTrue(false);

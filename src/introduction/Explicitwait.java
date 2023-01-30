@@ -17,7 +17,7 @@ public class Explicitwait {
 		System.setProperty("webdriver.chrome.drive", "C:/Users/Administrator/chromedriver/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		WebDriverWait we = new WebDriverWait(driver, 5);
+		WebDriverWait we = new WebDriverWait(driver, null);
 
 		String[] veges = { "Cucumber", "Brocolli", "Beetroot", "Beans", "Capsicum" };
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/");
